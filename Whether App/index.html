@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boxicons JS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <i class="bx bx-left-arrow-alt">Weather App</i>
+        </header>
+    <div class="container">
+        <p class="sec">Please enter a valid city name</p>
+        <form action="" name="myForm" onsubmit="weatherAPI(); return false;" >
+        <input type="text" class="inp-1" name="search" placeholder="Enter City Name">
+        <input  type="submit" class="inp-2" value="search">
+        </form>
+        <div class="section">
+            <p class="sec-1">City:<span id="city"></span></p>
+            <p class="sec-2">Temp:<span id="temp"></span></p>
+            <p class="sec-3">Country: <span id="cont"></span></p>
+        </div>
+    </div>  
+    </div>   
+<script src="index.js"></script>
+</body>
+</html>

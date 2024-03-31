@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursive';
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+.wrapper{
+    width: 500px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+.wrapper header{
+    color: aqua;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 16px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #bfbfbf;
+}
+header i{
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 8px;
+}
+.container{
+    width: 100%;
+    padding: 40px;
+    margin-top: 5px;
+}
+.container .sec{
+    font-size: 24px;
+    padding-left: 4px;
+    color: coral;
+    margin: 2px;
+}
+.container input{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    padding: 20px;
+    margin: 2px;
+    text-align: center;
+    height: 55px;
+}
+input.inp-1{
+    font-size: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+input.inp-2{
+    background-color: gold;
+    color: #fff;
+    font-size: 20px;
+    width: 150px;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+    margin-left: 150px;
+    margin-top: 12px;
+    margin-right: 30px;
+}
+input.inp-2:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+.section{
+    width: 100%;
+    margin-top: 20px;
+}
+.section p{
+    font-size: 30px;
+    font-weight: 600;/*
+    font-family: cursive; */
+}
+.sec-1{
+    color: coral;
+    display: block;
+    margin-top: 20px;
+
+}
+.sec-2{
+    color: rgb(187, 185, 185);
+    display:block;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.sec-3{
+    color: coral;
+    display:block;
+    margin-top: 30px;
+}
+#city{
+    color: rgb(174, 171, 171);
+    text-decoration: underline;
+}
+#temp{
+    color: coral;
+}
+#cont{
+    color: rgb(174, 171, 171);
+    text-decoration: underline;
+}

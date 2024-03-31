@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,600;1,600;1,900&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto:ital,wght@1,300&family=Ubuntu&family=Varela+Round&display=swap');
+
+html, body{
+    height: 150;
+    width: 100;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: impact;
+    font-size: 50px;
+    color: rgb(82, 82, 166);
+    text-shadow: 1px;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.button{
+    padding: 20px;
+    width: 90px;
+    margin: 0 3px;
+    border: 2px solid rgb(67, 67, 135);
+    box-sizing: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgb(67, 67, 135);
+
+}
+.button:hover{
+    background-color: transparent;
+}
+.buttons{
+    padding: 20px;
+    width: 90px;
+    margin: 0 3px;
+    box-sizing: 10px;
+    border: 2px solid chocolate;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: chocolate;
+}
+.buttons:hover{
+    background-color: transparent;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    width: 340px;
+    font-size: 30px;
+    height: 40px;
+    font-family: Arial;
+    margin: 0;
+    padding: 10px 38px;
+    box-shadow: 5px;
+    border: 2px solid rgb(226, 170, 170);
+    border-radius: 10px;
+}
