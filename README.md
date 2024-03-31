@@ -3,3 +3,6 @@
 
 <h1>Links:- </h1>
 <h2><a href="https://awesome-situ.netlify.app/" style="text-decoration:none;">Resume<a></h2>
+<h2><a href="https://situ-notes.netlify.app/" style="text-decoration:none;">Resume<a></h2>
+
+
