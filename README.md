@@ -7,7 +7,8 @@
 <h2><a href="https://situ-analog-clock.netlify.app/" style="text-decoration:none;">Analog Clock<a></h2>
 <h2><a href="https://mycalculator-pro.netlify.app/" style="text-decoration:none;">Calculator<a></h2>
 <h2><a href="https://situ-todo-list-app.netlify.app/" style="text-decoration:none;">To-do List App<a></h2>
-<h2><a href="https://shweta-weather-app.netlify.app/" style="text-decoration:none;">Weather App<a></h2>
+<h2><a href="https://shwetaantil-weather-app.netlify.app/" style="text-decoration:none;">Weather App<a></h2>
 <h2><a href="https://shweta-stopwatch.netlify.app/" style="text-decoration:none;">StopWatch<a></h2>
+
 
 
