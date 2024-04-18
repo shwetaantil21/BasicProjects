@@ -109,3 +109,32 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+
+/* * REsponsive---*/
+@media (max-width:415px ){
+    .card{
+        width: 100%;
+        margin: 80px auto 0;
+    }
+    .search{
+        width: 100%;
+    }
+    .search input{
+        width: 30%;
+    }
+    .details{
+        padding: 0 10px;
+    }
+    .col img{
+        width: 25px;
+        margin-right: 10px;
+    }
+    .humidity-text, .wind-text{
+        font-size: 15px;
+    }
+    .humidity, .wind{
+        font-size: 20px;
+        margin-top: -6px;
+    }
+}
