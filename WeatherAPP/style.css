@@ -122,6 +122,7 @@ body{
     }
     .search input{
         width: 30%;
+        font-size: 14px;
     }
     .details{
         padding: 0 10px;
