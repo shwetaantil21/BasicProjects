@@ -10,6 +10,19 @@ body{
     background-size: cover;
     /* background-position: center; */
 }
+.header-text{
+    color: aqua;
+    width: 100%;
+    border-bottom: 1px solid #f4c4c4;
+    padding: 10px 0;
+    /* margin-bottom: 20px; */
+}
+.header-text h1{
+    text-align: left;
+    cursor: pointer;
+    font-size: 30px;
+    /* border-bottom: 1px solid black; */
+}
 
 .card{
     width: 90%;
@@ -17,13 +30,14 @@ body{
     background: linear-gradient(135deg, #6bc4ac, #c17a57);
     /* background: linear-gradient(135deg, #00feba, #5b548a); */
     color: #fff;
-    margin: 200px auto 0;
+    margin: 120px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
 }
 .search{
     width: 100%;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
